@@ -1,0 +1,218 @@
+{
+  "announcement": {
+    "newLocation": "VOTRE NOUVELLE CLINIQUE DENTAIRE DE QUARTIER !"
+  },
+  "tagline": "Nous sommes là pour s'occuper de votre sourire.",
+  "cdcp": {
+    "title": "Fière partenaire du Régime canadien de soins dentaires (RCSD) !",
+    "cta": "En savoir plus"
+  },
+  "financing": {
+    "title": "Option de financement disponible"
+  },
+  "accordd": {
+    "title": "Service Accord D – Payez dans un an sans intérêt"
+  },
+  "insurance": {
+    "online": "Transmission par Internet des assurances"
+  },
+  "flexite": {
+    "title": "Flexite (prothèses partielles flexibles)"
+  },
+  "flexiti": {
+    "title": "Options de financement disponibles avec Flexiti",
+    "description": "Financement flexible pour vos soins dentaires"
+  },
+  "cta": {
+    "call": "Appeler",
+    "appointment": "Prendre rendez-vous",
+    "directions": "Itinéraire",
+    "learnMore": "En savoir plus"
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "financing": "Financement",
+    "clinic": "Clinique",
+    "team": "Équipe",
+    "contact": "Contact"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Des soins dentaires à la fine pointe — maintenant dans votre quartier",
+    "familyDentistry": {
+      "title": "Dentisterie familiale",
+      "description": "Soins dentaires complets pour toute la famille"
+    },
+    "emergencies": {
+      "title": "Urgences dentaires",
+      "description": "Soins d'urgence disponibles"
+    },
+    "implants": {
+      "title": "Implants dentaires",
+      "description": "Solutions permanentes pour remplacer les dents manquantes"
+    },
+    "examinations": {
+      "title": "Examens et radiographies",
+      "description": "Examens complets et diagnostics précis"
+    },
+    "wisdomTeeth": {
+      "title": "Extraction de dents de sagesse",
+      "description": "Extractions sécuritaires et confortables"
+    },
+    "rootCanal": {
+      "title": "Traitement de canal",
+      "description": "Endodontie pour sauver vos dents naturelles"
+    },
+    "crownsAndBridges": {
+      "title": "Couronnes et ponts",
+      "description": "Restaurations durables et esthétiques"
+    },
+    "endodontics": {
+      "title": "Endodontie",
+      "description": "Traitements spécialisés des nerfs dentaires"
+    },
+    "whitening": {
+      "title": "Blanchiment dentaire",
+      "description": "Retrouvez un sourire éclatant"
+    },
+    "partialDentures": {
+      "title": "Prothèses partielles",
+      "description": "Solutions confortables pour remplacer plusieurs dents"
+    },
+    "completeDentures": {
+      "title": "Prothèses complètes",
+      "description": "Prothèses totales sur mesure"
+    },
+    "periodontics": {
+      "title": "Parodontie et maladie de gencives",
+      "description": "Traitement des maladies gingivales"
+    }
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "subtitle": "Des professionnels dévoués à votre santé dentaire",
+    "drGeorgette": {
+      "name": "Dr Georgette Elias, D.M.D.",
+      "title": "Chirurgien Dentiste",
+      "description": "Nous sommes là pour prendre soin de votre sourire et votre santé bucco-dentaire."
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Prenez rendez-vous dès aujourd'hui",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "hours": "Heures d'ouverture",
+    "form": {
+      "name": "Nom complet",
+      "email": "Courriel",
+      "phone": "Téléphone",
+      "message": "Message",
+      "reason": "Motif de consultation",
+      "preferredTime": "Heure préférée",
+      "submit": "Envoyer",
+      "success": "Message envoyé avec succès!",
+      "error": "Erreur lors de l'envoi du message"
+    }
+  },
+  "clinic": {
+    "title": "Notre clinique",
+    "subtitle": "Une clinique moderne et accueillante au cœur de Montréal, offrant des soins dentaires de qualité dans un environnement confortable.",
+    "newLocation": "Notre nouvelle clinique",
+    "welcomeMessage": "Bienvenue dans nos nouveaux locaux ! Technologie de pointe, soins tout en douceur et sourires en santé pour toute la famille.",
+    "accessibility": "Clinique adaptée pour mobilité réduite",
+    "stateOfArt": "Technologie de pointe, soins tout en douceur",
+    "location": {
+      "title": "Adresse",
+      "address": "2491 rue Bélanger, Montreal, QC H2G 1E6",
+      "description": "D'Iberville Metro Exit • Free parking • Metro access"
+    },
+    "locationAndContact": {
+      "title": "Adresse & Contact"
+    },
+    "hours": {
+      "title": "Heures d'ouverture",
+      "monday": "Lundi",
+      "mondayTime": "8h00 - 17h00",
+      "tuesday": "Mardi",
+      "tuesdayTime": "8h00 - 17h00",
+      "wednesday": "Mercredi",
+      "wednesdayTime": "8h00 - 17h00",
+      "thursday": "Jeudi",
+      "thursdayTime": "8h00 - 17h00",
+      "friday": "Vendredi",
+      "fridayTime": "8h00 - 17h00",
+      "saturday": "Samedi",
+      "saturdayTime": "Sur rendez-vous",
+      "sunday": "Dimanche",
+      "sundayTime": "Fermé"
+    },
+    "contact": {
+      "title": "Contact"
+    },
+    "features": {
+      "title": "Pourquoi choisir notre clinique ?",
+      "modern": {
+        "title": "Équipement moderne",
+        "description": "Technologie de pointe pour des soins précis et confortables"
+      },
+      "parking": {
+        "title": "Stationnement gratuit",
+        "description": "Accès facile avec stationnement gratuit pour nos patients"
+      },
+      "accessible": {
+        "title": "Accessible",
+        "description": "Clinique entièrement accessible aux personnes à mobilité réduite"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "subtitle": "Ce que disent nos patients"
+  },
+  "footer": {
+    "address": "2491 rue Bélanger, Montréal, QC H2G 1E6",
+    "phone": "(514) 722-6575",
+    "email": "admin@dentistegeorgetteelias.com",
+    "metro": "Sortie Métro D'Iberville",
+    "hours": {
+      "title": "Heures d'ouverture",
+      "monday": "Lundi: 8h-17h",
+      "tuesday": "Mardi: 8h-17h",
+      "wednesday": "Mercredi: 8h-17h",
+      "thursday": "Jeudi: 8h-17h",
+      "friday": "Vendredi: 8h-16h",
+      "saturday": "Samedi: Fermé",
+      "sunday": "Dimanche: Fermé"
+    },
+    "quickLinks": "Liens rapides",
+    "followUs": "Suivez-nous"
+  },
+  "meta": {
+    "home": {
+      "title": "Clinique Dentaire Dr Georgette Elias | Soins Dentaires Montréal",
+      "description": "Clinique dentaire moderne à Montréal offrant des soins complets. Partenaire RCSD. Financement disponible. Prenez rendez-vous avec Dr Georgette Elias."
+    },
+    "services": {
+      "title": "Services Dentaires | Dr Georgette Elias",
+      "description": "Services dentaires complets: examens, nettoyage, restaurations, urgences, esthétique et prothèses. Soins professionnels à Montréal."
+    },
+    "financing": {
+      "title": "Financement | Options de Paiement | Dr Georgette Elias",
+      "description": "Options de financement flexibles incluant Accord D et transmission électronique d'assurances. Partenaire du RCSD."
+    },
+    "clinic": {
+      "title": "Notre Clinique | Installations Modernes | Dr Georgette Elias",
+      "description": "Découvrez notre nouvelle clinique dentaire moderne avec équipements de pointe et environnement confortable."
+    },
+    "team": {
+      "title": "Notre Équipe | Dr Georgette Elias et Professionnels",
+      "description": "Rencontrez notre équipe de professionnels dentaires dévoués dirigée par Dr Georgette Elias."
+    },
+    "contact": {
+      "title": "Contact | Prendre Rendez-vous | Dr Georgette Elias",
+      "description": "Contactez la clinique Dr Georgette Elias pour prendre rendez-vous. Téléphone, formulaire en ligne et informations de localisation."
+    }
+  }
+}

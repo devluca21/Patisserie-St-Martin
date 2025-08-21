@@ -1,0 +1,218 @@
+{
+  "announcement": {
+    "newLocation": "Your new neighborhood dental clinic!"
+  },
+  "tagline": "We're here to care for your smile.",
+  "cdcp": {
+    "title": "Welcoming patients with Canadian Dental Care Plan (CDCP) coverage!",
+    "cta": "Learn More"
+  },
+  "financing": {
+    "title": "Financing options available"
+  },
+  "accordd": {
+    "title": "Accord D Service – Pay in one year, interest-free"
+  },
+  "insurance": {
+    "online": "Electronic insurance submission"
+  },
+  "flexite": {
+    "title": "Flexite (flexible partial dentures)"
+  },
+  "flexiti": {
+    "title": "Financing options available with Flexiti",
+    "description": "Flexible financing for your dental care"
+  },
+  "cta": {
+    "call": "Call",
+    "appointment": "Book appointment",
+    "directions": "Directions",
+    "learnMore": "Learn More"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "financing": "Financing",
+    "clinic": "Clinic",
+    "team": "Team",
+    "contact": "Contact"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "State-of-the-art dental care — now in your neighborhood",
+    "familyDentistry": {
+      "title": "Family Dentistry",
+      "description": "Comprehensive dental care for the whole family"
+    },
+    "emergencies": {
+      "title": "Dental Emergencies",
+      "description": "Emergency care available"
+    },
+    "implants": {
+      "title": "Dental Implants",
+      "description": "Permanent solutions to replace missing teeth"
+    },
+    "examinations": {
+      "title": "Examinations and X-rays",
+      "description": "Comprehensive exams and accurate diagnostics"
+    },
+    "wisdomTeeth": {
+      "title": "Wisdom Tooth Extraction",
+      "description": "Safe and comfortable extractions"
+    },
+    "rootCanal": {
+      "title": "Root Canal Treatment",
+      "description": "Endodontics to save your natural teeth"
+    },
+    "crownsAndBridges": {
+      "title": "Crowns and Bridges",
+      "description": "Durable and aesthetic restorations"
+    },
+    "endodontics": {
+      "title": "Endodontics",
+      "description": "Specialized treatment of dental nerves"
+    },
+    "whitening": {
+      "title": "Teeth Whitening",
+      "description": "Restore your bright smile"
+    },
+    "partialDentures": {
+      "title": "Partial Dentures",
+      "description": "Comfortable solutions to replace multiple teeth"
+    },
+    "completeDentures": {
+      "title": "Complete Dentures",
+      "description": "Custom-made full dentures"
+    },
+    "periodontics": {
+      "title": "Periodontics and Gum Disease",
+      "description": "Treatment of gum diseases"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Professionals dedicated to your dental health",
+    "drGeorgette": {
+      "name": "Dr Georgette Elias, D.M.D.",
+      "title": "Dental Surgeon",
+      "description": "We're here to take care of your smile and oral health."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Book your appointment today",
+    "phone": "Phone",
+    "address": "Address",
+    "hours": "Hours",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "reason": "Reason for visit",
+      "preferredTime": "Preferred time",
+      "submit": "Submit",
+      "success": "Message sent successfully!",
+      "error": "Error sending message"
+    }
+  },
+  "clinic": {
+    "title": "Our Clinic",
+    "subtitle": "A modern and welcoming clinic in the heart of Montreal, offering quality dental care in a comfortable environment.",
+    "newLocation": "Our new clinic",
+    "welcomeMessage": "Welcome to our new facilities! State-of-the-art technology, gentle care and healthy smiles for the whole family.",
+    "accessibility": "Clinic adapted for reduced mobility",
+    "stateOfArt": "State-of-the-art technology, gentle care",
+    "location": {
+      "title": "Address",
+      "address": "2491 rue Bélanger, Montreal, QC H2G 1E6",
+      "description": "D'Iberville Metro Exit • Free parking • Metro access"
+    },
+    "locationAndContact": {
+      "title": "Address & Contact"
+    },
+    "hours": {
+      "title": "Opening Hours",
+      "monday": "Monday",
+      "mondayTime": "8:00 AM - 5:00 PM",
+      "tuesday": "Tuesday",
+      "tuesdayTime": "8:00 AM - 5:00 PM",
+      "wednesday": "Wednesday",
+      "wednesdayTime": "8:00 AM - 5:00 PM",
+      "thursday": "Thursday",
+      "thursdayTime": "8:00 AM - 5:00 PM",
+      "friday": "Friday",
+      "fridayTime": "8:00 AM - 5:00 PM",
+      "saturday": "Saturday",
+      "saturdayTime": "By appointment",
+      "sunday": "Sunday",
+      "sundayTime": "Closed"
+    },
+    "contact": {
+      "title": "Contact"
+    },
+    "features": {
+      "title": "Why choose our clinic?",
+      "modern": {
+        "title": "Modern equipment",
+        "description": "State-of-the-art technology for precise and comfortable care"
+      },
+      "parking": {
+        "title": "Free parking",
+        "description": "Easy access with free parking for our patients"
+      },
+      "accessible": {
+        "title": "Accessible",
+        "description": "Fully accessible clinic for people with reduced mobility"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What our patients say"
+  },
+  "footer": {
+    "address": "2491 rue Bélanger, Montreal, QC H2G 1E6",
+    "phone": "(514) 722-6575",
+    "email": "admin@dentistegeorgetteelias.com",
+    "metro": "D'Iberville Metro Exit",
+    "hours": {
+      "title": "Opening Hours",
+      "monday": "Monday: 8am-5pm",
+      "tuesday": "Tuesday: 8am-5pm",
+      "wednesday": "Wednesday: 8am-5pm",
+      "thursday": "Thursday: 8am-5pm",
+      "friday": "Friday: 8am-4pm",
+      "saturday": "Saturday: Closed",
+      "sunday": "Sunday: Closed"
+    },
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us"
+  },
+  "meta": {
+    "home": {
+      "title": "Dr Georgette Elias Dental Clinic | Montreal Dental Care",
+      "description": "Modern dental clinic in Montreal offering comprehensive care. CDCP partner. Financing available. Book your appointment with Dr Georgette Elias."
+    },
+    "services": {
+      "title": "Dental Services | Dr Georgette Elias",
+      "description": "Comprehensive dental services: examinations, cleaning, restorations, emergencies, esthetics and prosthetics. Professional care in Montreal."
+    },
+    "financing": {
+      "title": "Financing | Payment Options | Dr Georgette Elias",
+      "description": "Flexible financing options including Accord D and electronic insurance submission. CDCP partner."
+    },
+    "clinic": {
+      "title": "Our Clinic | Modern Facilities | Dr Georgette Elias",
+      "description": "Discover our new modern dental clinic with state-of-the-art equipment and comfortable environment."
+    },
+    "team": {
+      "title": "Our Team | Dr Georgette Elias and Professionals",
+      "description": "Meet our team of dedicated dental professionals led by Dr Georgette Elias."
+    },
+    "contact": {
+      "title": "Contact | Book Appointment | Dr Georgette Elias",
+      "description": "Contact Dr Georgette Elias clinic to book your appointment. Phone, online form and location information."
+    }
+  }
+}
