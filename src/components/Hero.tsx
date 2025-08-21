@@ -29,9 +29,9 @@ const Hero = () => {
   return (
     <section className="relative bg-gradient-to-b from-dental-light to-white py-8 sm:py-12 lg:py-16">
       <div className="container mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Text Content */}
-          <div className="space-y-6 sm:space-y-8 order-2 lg:order-1">
+          <div className="space-y-6 sm:space-y-8 order-2 md:order-1">
             <div className="space-y-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-dental-primary leading-tight">
                 {isEnglish ? 'YOUR NEW NEIGHBORHOOD DENTAL CLINIC!' : 'VOTRE NOUVELLE CLINIQUE DENTAIRE DE QUARTIER !'}
@@ -99,7 +99,7 @@ const Hero = () => {
           </div>
 
           {/* Image Carousel */}
-          <div className="relative order-1 lg:order-2 mb-8 lg:mb-0">
+          <div className="relative order-1 md:order-2 mb-8 md:mb-0">
             <div className="relative overflow-hidden rounded-lg shadow-2xl">
               <Carousel autoplay autoplayDelay={4000}>
                 {clinicImages.map((image, index) => (
