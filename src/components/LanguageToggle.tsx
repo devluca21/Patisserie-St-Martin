@@ -28,12 +28,34 @@ const LanguageToggle = () => {
       // Convert French path to English
       if (pathname === '/') {
         newPath = '/en';
+      } else if (pathname === '/services') {
+        newPath = '/en/services';
+      } else if (pathname === '/equipe') {
+        newPath = '/en/equipe';
+      } else if (pathname === '/financement') {
+        newPath = '/en/financement';
+      } else if (pathname === '/contact') {
+        newPath = '/en/contact';
+      } else if (pathname === '/cdcp') {
+        newPath = '/en/cdcp';
       } else if (pathname.startsWith('/')) {
         newPath = `/en${pathname}`;
       }
     } else {
       // Convert English path to French
-      if (pathname.startsWith('/en')) {
+      if (pathname === '/en') {
+        newPath = '/';
+      } else if (pathname === '/en/services') {
+        newPath = '/services';
+      } else if (pathname === '/en/equipe') {
+        newPath = '/equipe';
+      } else if (pathname === '/en/financement') {
+        newPath = '/financement';
+      } else if (pathname === '/en/contact') {
+        newPath = '/contact';
+      } else if (pathname === '/en/cdcp') {
+        newPath = '/cdcp';
+      } else if (pathname.startsWith('/en')) {
         newPath = pathname.replace('/en', '');
         if (newPath === '') newPath = '/';
       }

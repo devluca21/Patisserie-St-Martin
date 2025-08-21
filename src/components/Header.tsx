@@ -34,13 +34,16 @@ const Header = () => {
 
   const isEnglish = pathname.startsWith('/en');
   const currentNavigation = isEnglish ? englishNavigation : navigation;
+  
+  // Ensure logo links to the correct language version
+  const logoHref = isEnglish ? '/en' : '/';
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link href={logoHref} className="flex items-center">
             <img
               src="/logo-full.svg"
               alt="Dr Georgette Elias Dental Clinic"
