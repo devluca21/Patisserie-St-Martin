@@ -42,26 +42,5 @@
       ]
     }
   ],
-  "redirects": [
-    {
-      "source": "/services",
-      "destination": "/en/services",
-      "permanent": false
-    },
-    {
-      "source": "/contact",
-      "destination": "/en/contact",
-      "permanent": false
-    },
-    {
-      "source": "/equipe",
-      "destination": "/en/equipe",
-      "permanent": false
-    },
-    {
-      "source": "/financement",
-      "destination": "/en/financement",
-      "permanent": false
-    }
-  ]
+
 }
