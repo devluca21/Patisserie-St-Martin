@@ -1,106 +1,100 @@
 {
   "announcement": {
-    "newLocation": "VOTRE NOUVELLE CLINIQUE DENTAIRE DE QUARTIER !"
+    "newLocation": "VOTRE NOUVELLE PATISSERIE DE QUARTIER !"
   },
-  "tagline": "Nous sommes là pour s'occuper de votre sourire.",
-  "cdcp": {
-    "title": "Fière partenaire du Régime canadien de soins dentaires (RCSD) !",
-    "cta": "En savoir plus"
+  "tagline": "Nous sommes là pour créer des moments de bonheur avec nos pâtisseries artisanales.",
+  "seasonal": {
+    "title": "Offres saisonnières disponibles !",
+    "cta": "Commander maintenant"
   },
-  "financing": {
-    "title": "Option de financement disponible"
+  "specialOrders": {
+    "title": "Commandes spéciales disponibles"
   },
-  "accordd": {
-    "title": "Service Accord D – Payez dans un an sans intérêt"
+  "customCakes": {
+    "title": "Gâteaux sur mesure - Créations uniques pour vos événements"
   },
-  "insurance": {
-    "online": "Transmission par Internet des assurances"
-  },
-  "flexite": {
-    "title": "Flexite (prothèses partielles flexibles)"
-  },
-  "flexiti": {
-    "title": "Options de financement disponibles avec Flexiti",
-    "description": "Financement flexible pour vos soins dentaires"
+  "catering": {
+    "title": "Services traiteur pour vos événements spéciaux",
+    "description": "Buffets et plateaux sur mesure pour vos célébrations"
   },
   "cta": {
     "call": "Appeler",
-    "appointment": "Prendre rendez-vous",
+    "order": "Passer une commande",
     "directions": "Itinéraire",
     "learnMore": "En savoir plus"
   },
   "nav": {
     "home": "Accueil",
-    "services": "Services",
-    "financing": "Financement",
-    "clinic": "Clinique",
+    "patisseries": "Pâtisseries",
+    "gateaux": "Gâteaux",
+    "traiteur": "Traiteur",
     "team": "Équipe",
     "contact": "Contact"
   },
   "services": {
-    "title": "Nos Services",
-    "subtitle": "Des soins dentaires à la fine pointe — maintenant dans votre quartier",
-    "familyDentistry": {
-      "title": "Dentisterie familiale",
-      "description": "Soins dentaires complets pour toute la famille"
+    "title": "Nos Spécialités",
+    "subtitle": "Pâtisseries artisanales de qualité — maintenant dans votre quartier",
+    "artisanPastries": {
+      "title": "Pâtisseries artisanales",
+      "description": "Croissants, pains au chocolat et viennoiseries fraîches"
     },
-    "emergencies": {
-      "title": "Urgences dentaires",
-      "description": "Soins d'urgence disponibles"
+    "customCakes": {
+      "title": "Gâteaux sur mesure",
+      "description": "Créations uniques pour anniversaires, mariages et événements"
     },
-    "implants": {
-      "title": "Implants dentaires",
-      "description": "Solutions permanentes pour remplacer les dents manquantes"
+    "artisanBread": {
+      "title": "Pains artisanaux",
+      "description": "Baguettes, pains de campagne et spécialités du jour"
     },
-    "examinations": {
-      "title": "Examens et radiographies",
-      "description": "Examens complets et diagnostics précis"
+    "desserts": {
+      "title": "Desserts et pâtisseries",
+      "description": "Éclairs, tartes et créations saisonnières"
     },
-    "wisdomTeeth": {
-      "title": "Extraction de dents de sagesse",
-      "description": "Extractions sécuritaires et confortables"
+    "chocolate": {
+      "title": "Chocolats artisanaux",
+      "description": "Truffes, bonbons et créations en chocolat"
     },
-    "rootCanal": {
-      "title": "Traitement de canal",
-      "description": "Endodontie pour sauver vos dents naturelles"
+    "catering": {
+      "title": "Services traiteur",
+      "description": "Buffets et plateaux pour événements privés et corporatifs"
     },
-    "crownsAndBridges": {
-      "title": "Couronnes et ponts",
-      "description": "Restaurations durables et esthétiques"
+    "weddingCakes": {
+      "title": "Gâteaux de mariage",
+      "description": "Créations élégantes et personnalisées"
     },
-    "endodontics": {
-      "title": "Endodontie",
-      "description": "Traitements spécialisés des nerfs dentaires"
+    "birthdayCakes": {
+      "title": "Gâteaux d'anniversaire",
+      "description": "Designs créatifs et personnalisés"
     },
-    "whitening": {
-      "title": "Blanchiment dentaire",
-      "description": "Retrouvez un sourire éclatant"
+    "corporateEvents": {
+      "title": "Événements corporatifs",
+      "description": "Services traiteur professionnels"
     },
-    "partialDentures": {
-      "title": "Prothèses partielles",
-      "description": "Solutions confortables pour remplacer plusieurs dents"
+    "seasonalSpecialties": {
+      "title": "Spécialités saisonnières",
+      "description": "Pâtisseries et gâteaux selon les saisons"
     },
-    "completeDentures": {
-      "title": "Prothèses complètes",
-      "description": "Prothèses totales sur mesure"
+    "glutenFree": {
+      "title": "Options sans gluten",
+      "description": "Délicieuses alternatives pour tous"
     },
-    "periodontics": {
-      "title": "Parodontie et maladie de gencives",
-      "description": "Traitement des maladies gingivales"
+    "veganOptions": {
+      "title": "Options végétaliennes",
+      "description": "Pâtisseries sans produits animaux"
     }
   },
   "team": {
     "title": "Notre Équipe",
-    "subtitle": "Des professionnels dévoués à votre santé dentaire",
-    "drGeorgette": {
-      "name": "Dr Georgette Elias, D.M.D.",
-      "title": "Chirurgien Dentiste",
-      "description": "Nous sommes là pour prendre soin de votre sourire et votre santé bucco-dentaire."
+    "subtitle": "Des artisans passionnés par l'excellence pâtissière",
+    "chef": {
+      "name": "Chef St. Martin",
+      "title": "Chef Pâtissier",
+      "description": "Nous sommes là pour créer des moments de bonheur avec nos pâtisseries artisanales."
     }
   },
   "contact": {
     "title": "Contactez-nous",
-    "subtitle": "Prenez rendez-vous dès aujourd'hui",
+    "subtitle": "Passez votre commande dès aujourd'hui",
     "phone": "Téléphone",
     "address": "Adresse",
     "hours": "Heures d'ouverture",
@@ -109,24 +103,24 @@
       "email": "Courriel",
       "phone": "Téléphone",
       "message": "Message",
-      "reason": "Motif de consultation",
-      "preferredTime": "Heure préférée",
+      "orderType": "Type de commande",
+      "preferredDate": "Date préférée",
       "submit": "Envoyer",
-      "success": "Message envoyé avec succès!",
-      "error": "Erreur lors de l'envoi du message"
+      "success": "Commande envoyée avec succès!",
+      "error": "Erreur lors de l'envoi de la commande"
     }
   },
-  "clinic": {
-    "title": "Notre clinique",
-    "subtitle": "Une clinique moderne et accueillante au cœur de Montréal, offrant des soins dentaires de qualité dans un environnement confortable.",
-    "newLocation": "Notre nouvelle clinique",
-    "welcomeMessage": "Bienvenue dans nos nouveaux locaux ! Technologie de pointe, soins tout en douceur et sourires en santé pour toute la famille.",
-    "accessibility": "Clinique adaptée pour mobilité réduite",
-    "stateOfArt": "Technologie de pointe, soins tout en douceur",
+  "patisserie": {
+    "title": "Notre patisserie",
+    "subtitle": "Une patisserie moderne et accueillante au cœur de Montréal, offrant des pâtisseries artisanales de qualité dans un environnement chaleureux.",
+    "newLocation": "Notre nouvelle patisserie",
+    "welcomeMessage": "Bienvenue dans nos nouveaux locaux ! Pâtisseries artisanales, ingrédients de qualité et saveurs authentiques pour toute la famille.",
+    "atmosphere": "Patisserie avec ambiance chaleureuse et accueillante",
+    "artisanQuality": "Pâtisseries artisanales, ingrédients de qualité",
     "location": {
       "title": "Adresse",
       "address": "2491 rue Bélanger, Montreal, QC H2G 1E6",
-      "description": "D'Iberville Metro Exit • Free parking • Metro access"
+      "description": "Sortie Métro D'Iberville • Stationnement gratuit • Accès métro"
     },
     "locationAndContact": {
       "title": "Adresse & Contact"
@@ -134,85 +128,331 @@
     "hours": {
       "title": "Heures d'ouverture",
       "monday": "Lundi",
-      "mondayTime": "8h00 - 17h00",
+      "mondayTime": "7h00 - 19h00",
       "tuesday": "Mardi",
-      "tuesdayTime": "8h00 - 17h00",
+      "tuesdayTime": "7h00 - 19h00",
       "wednesday": "Mercredi",
-      "wednesdayTime": "8h00 - 17h00",
+      "wednesdayTime": "7h00 - 19h00",
       "thursday": "Jeudi",
-      "thursdayTime": "8h00 - 17h00",
+      "thursdayTime": "7h00 - 19h00",
       "friday": "Vendredi",
-      "fridayTime": "8h00 - 17h00",
+      "fridayTime": "7h00 - 19h00",
       "saturday": "Samedi",
-      "saturdayTime": "Sur rendez-vous",
+      "saturdayTime": "8h00 - 18h00",
       "sunday": "Dimanche",
-      "sundayTime": "Fermé"
+      "sundayTime": "8h00 - 16h00"
     },
     "contact": {
       "title": "Contact"
     },
     "features": {
-      "title": "Pourquoi choisir notre clinique ?",
-      "modern": {
-        "title": "Équipement moderne",
-        "description": "Technologie de pointe pour des soins précis et confortables"
+      "title": "Pourquoi choisir notre patisserie ?",
+      "artisan": {
+        "title": "Qualité artisanale",
+        "description": "Pâtisseries faites à la main avec des ingrédients de qualité"
       },
       "parking": {
         "title": "Stationnement gratuit",
-        "description": "Accès facile avec stationnement gratuit pour nos patients"
+        "description": "Accès facile avec stationnement gratuit pour nos clients"
       },
-      "accessible": {
-        "title": "Accessible",
-        "description": "Clinique entièrement accessible aux personnes à mobilité réduite"
+      "atmosphere": {
+        "title": "Ambiance chaleureuse",
+        "description": "Patisserie avec une atmosphère accueillante et conviviale"
       }
     }
   },
   "testimonials": {
-    "title": "Témoignages",
-    "subtitle": "Ce que disent nos patients"
+    "title": "Avis clients",
+    "subtitle": "Ce que disent nos clients"
   },
   "footer": {
     "address": "2491 rue Bélanger, Montréal, QC H2G 1E6",
     "phone": "(514) 722-6575",
-    "email": "admin@dentistegeorgetteelias.com",
+    "email": "pstm2495@gmail.com",
     "metro": "Sortie Métro D'Iberville",
     "hours": {
       "title": "Heures d'ouverture",
-      "monday": "Lundi: 8h-17h",
-      "tuesday": "Mardi: 8h-17h",
-      "wednesday": "Mercredi: 8h-17h",
-      "thursday": "Jeudi: 8h-17h",
-      "friday": "Vendredi: 8h-16h",
-      "saturday": "Samedi: Fermé",
-      "sunday": "Dimanche: Fermé"
+      "monday": "Lundi: 7h-19h",
+      "tuesday": "Mardi: 7h-19h",
+      "wednesday": "Mercredi: 7h-19h",
+      "thursday": "Jeudi: 7h-19h",
+      "friday": "Vendredi: 7h-19h",
+      "saturday": "Samedi: 8h-18h",
+      "sunday": "Dimanche: 8h-16h"
     },
     "quickLinks": "Liens rapides",
     "followUs": "Suivez-nous"
   },
+  "gallery": {
+    "bread": {
+      "tabs": {
+        "viennoiseries": "VIENNOISERIES",
+        "boulangerie": "BOULANGERIE",
+        "specialites": "SPÉCIALITÉS"
+      },
+      "descriptions": {
+        "viennoiseries": "Nos délicieuses viennoiseries feuilletées, préparées avec du beurre d'excellence",
+        "boulangerie": "Nos pains artisanaux, cuits au feu de bois selon les traditions françaises",
+        "specialites": "Nos créations spéciales, uniques et savoureuses"
+      },
+      "items": {
+        "croissants": {
+          "title": "Croissants Classiques",
+          "description": "Croissants au beurre traditionnels, feuilletés et dorés"
+        },
+        "painChocolat": {
+          "title": "Pain au Chocolat",
+          "description": "Viennoiserie feuilletée avec bâtons de chocolat noir"
+        },
+        "chaussonsPommes": {
+          "title": "Chaussons aux Pommes",
+          "description": "Chaussons feuilletés garnis de compote de pommes"
+        },
+        "painsLait": {
+          "title": "Pains au Lait",
+          "description": "Pains au lait moelleux et légèrement sucrés"
+        },
+        "painRaisins": {
+          "title": "Pain aux Raisins",
+          "description": "Pain brioché garni de raisins secs et crème pâtissière"
+        },
+        "chouquettes": {
+          "title": "Chouquettes",
+          "description": "Petits choux garnis de sucre perlé"
+        },
+        "painCampagne": {
+          "title": "Pain de Campagne",
+          "description": "Pain rustique au levain naturel, croûte dorée"
+        },
+        "baguette": {
+          "title": "Baguette Tradition",
+          "description": "Baguette française classique, croûte croustillante"
+        },
+        "painComplet": {
+          "title": "Pain Complet",
+          "description": "Pain complet aux céréales et graines"
+        },
+        "painSeigle": {
+          "title": "Pain de Seigle",
+          "description": "Pain de seigle traditionnel avec caraway"
+        },
+        "painNoix": {
+          "title": "Pain aux Noix",
+          "description": "Pain rustique garni de noix entières"
+        },
+        "painOlives": {
+          "title": "Pain aux Olives",
+          "description": "Pain méditerranéen avec olives noires et vertes"
+        },
+        "fougasse": {
+          "title": "Fougasse Provençale",
+          "description": "Pain plat provençal aux herbes de Provence"
+        },
+        "painFigues": {
+          "title": "Pain aux Figues",
+          "description": "Pain rustique garni de figues fraîches"
+        },
+        "painCereales": {
+          "title": "Pain aux Céréales",
+          "description": "Pain multigrains avec graines de tournesol et lin"
+        },
+        "painLevain": {
+          "title": "Pain au Levain",
+          "description": "Pain au levain naturel, fermentation lente"
+        },
+        "painMie": {
+          "title": "Pain de Mie",
+          "description": "Pain de mie moelleux pour sandwiches"
+        },
+        "painFruitsSecs": {
+          "title": "Pain aux Fruits Secs",
+          "description": "Pain garni d'abricots, raisins et noisettes"
+        }
+      }
+    },
+    "pastry": {
+      "items": {
+        "croissants": {
+          "title": "Croissants Classiques",
+          "description": "Croissants au beurre traditionnels, feuilletés et dorés"
+        },
+        "painChocolat": {
+          "title": "Pain au Chocolat",
+          "description": "Viennoiserie feuilletée avec bâtons de chocolat noir"
+        },
+        "chaussonsPommes": {
+          "title": "Chaussons aux Pommes",
+          "description": "Chaussons feuilletés garnis de compote de pommes"
+        },
+        "painCampagne": {
+          "title": "Pain de Campagne",
+          "description": "Pain rustique au levain naturel, croûte dorée"
+        },
+        "baguette": {
+          "title": "Baguette Tradition",
+          "description": "Baguette française classique, croûte croustillante"
+        },
+        "painComplet": {
+          "title": "Pain Complet",
+          "description": "Pain complet aux céréales et graines"
+        },
+        "eclairs": {
+          "title": "Éclairs au Chocolat",
+          "description": "Éclairs choux garnis de crème pâtissière chocolat"
+        },
+        "tartesFruits": {
+          "title": "Tartes aux Fruits",
+          "description": "Tartes avec crème pâtissière et fruits frais"
+        },
+        "macarons": {
+          "title": "Macarons",
+          "description": "Macarons aux saveurs variées, coques et garnitures"
+        },
+        "milleFeuilles": {
+          "title": "Mille-Feuilles",
+          "description": "Mille-feuilles feuilletés avec crème pâtissière"
+        },
+        "chouxCreme": {
+          "title": "Choux à la Crème",
+          "description": "Choux garnis de crème chantilly vanille"
+        },
+        "painsLait": {
+          "title": "Pains au Lait",
+          "description": "Pains au lait moelleux et légèrement sucrés"
+        }
+      }
+    },
+    "cake": {
+      "tabs": {
+        "wedding": "NOS GÂTEAUX DE MARIAGE",
+        "classic": "GÂTEAUX CLASSIQUES",
+        "custom": "GÂTEAU PERSONNALISÉ"
+      },
+      "descriptions": {
+        "wedding": "Des gâteaux de mariage élégants et uniques pour votre jour spécial",
+        "classic": "Nos pâtisseries classiques, préparées avec des recettes traditionnelles",
+        "custom": "Des créations personnalisées pour vos occasions spéciales"
+      },
+      "items": {
+        "nakedHydrangeas": {
+          "title": "Gâteau Naked avec Hydrangeas",
+          "description": "Gâteau semi-nu avec hydrangeas et roses pêche"
+        },
+        "noirTextes": {
+          "title": "Gâteau Noir avec Textes",
+          "description": "Gâteau noir 4 étages avec textes peints à la main"
+        },
+        "classiqueBlanc": {
+          "title": "Gâteau Classique Blanc",
+          "description": "Gâteau blanc 5 étages avec cascade de fleurs en sucre"
+        },
+        "roseGold": {
+          "title": "Gâteau Rose Gold",
+          "description": "Gâteau blanc avec points métalliques rose or et topper 'Mr & Mrs'"
+        },
+        "rustique": {
+          "title": "Gâteau Rustique",
+          "description": "Gâteau rustique avec décorations naturelles"
+        },
+        "moderne": {
+          "title": "Gâteau Moderne",
+          "description": "Design moderne avec géométrie et couleurs contemporaines"
+        },
+        "mousseChocolat": {
+          "title": "Mousse au Chocolat",
+          "description": "Génoise au chocolat avec mousse mi-amer et glaçage miroir"
+        },
+        "pistache": {
+          "title": "Pistache",
+          "description": "Génoise vanille avec crémage au pistache"
+        },
+        "shortcakeFraises": {
+          "title": "Shortcake aux Fraises",
+          "description": "Génoise nature avec crème vanille et fraises fraîches"
+        },
+        "fruitsBois": {
+          "title": "Fruits des Bois",
+          "description": "Génoise vanille avec fruits frais et biscuits doigts de dames"
+        },
+        "mousseFramboises": {
+          "title": "Mousse aux Framboises",
+          "description": "Mousse framboise avec génoise vanille et coulis"
+        },
+        "chocolatBeurre": {
+          "title": "Chocolat au Beurre",
+          "description": "Génoise chocolat avec crème au beurre chocolat"
+        },
+        "limoncello": {
+          "title": "Limoncello",
+          "description": "Génoise citron avec mousseline limoncello et tranches de citron"
+        },
+        "cremeLegere": {
+          "title": "Crème Légère",
+          "description": "Génoise vanille avec crème légère et fruits frais"
+        },
+        "moitieMoitie": {
+          "title": "Moitié-Moitié",
+          "description": "Génoise vanille et chocolat avec crèmes variées"
+        },
+        "fraisier": {
+          "title": "Fraisier",
+          "description": "Génoise vanille avec mousseline et fraises"
+        },
+        "domeFruitsBois": {
+          "title": "Dôme Fruits des Bois",
+          "description": "Tarte crème d'amandes avec fruits frais"
+        },
+        "bapteme": {
+          "title": "Gâteau Baptême",
+          "description": "Gâteau ombre rose et blanc avec croix dorée et roses"
+        },
+        "communion": {
+          "title": "Gâteau Communion",
+          "description": "Gâteau deux tons avec croix dorée et macarons bleus"
+        },
+        "diplome": {
+          "title": "Gâteau Diplôme",
+          "description": "Gâteau blanc avec casquette, diplôme et roses orange"
+        },
+        "anniversaire": {
+          "title": "Gâteau Anniversaire",
+          "description": "Gâteaux chiffres avec roses roses et macarons"
+        },
+        "theme": {
+          "title": "Gâteau Thème",
+          "description": "Gâteau personnalisé selon vos préférences"
+        },
+        "evenement": {
+          "title": "Gâteau Événement",
+          "description": "Création unique pour vos événements spéciaux"
+        }
+      }
+    }
+  },
   "meta": {
     "home": {
-      "title": "Clinique Dentaire Dr Georgette Elias | Soins Dentaires Montréal",
-      "description": "Clinique dentaire moderne à Montréal offrant des soins complets. Partenaire RCSD. Financement disponible. Prenez rendez-vous avec Dr Georgette Elias."
+      "title": "Patisserie St. Martin | Pâtisseries Artisanales & Gâteaux - Montréal",
+      "description": "Patisserie moderne à Montréal offrant des pâtisseries artisanales et gâteaux sur mesure. Services traiteur disponibles. Commandez vos pâtisseries chez Patisserie St. Martin."
     },
-    "services": {
-      "title": "Services Dentaires | Dr Georgette Elias",
-      "description": "Services dentaires complets: examens, nettoyage, restaurations, urgences, esthétique et prothèses. Soins professionnels à Montréal."
+    "patisseries": {
+      "title": "Pâtisseries Artisanales | Patisserie St. Martin",
+      "description": "Pâtisseries artisanales complètes: croissants, pains, viennoiseries, desserts et spécialités. Qualité artisanale à Montréal."
     },
-    "financing": {
-      "title": "Financement | Options de Paiement | Dr Georgette Elias",
-      "description": "Options de financement flexibles incluant Accord D et transmission électronique d'assurances. Partenaire du RCSD."
+    "gateaux": {
+      "title": "Gâteaux sur Mesure | Créations Uniques | Patisserie St. Martin",
+      "description": "Gâteaux personnalisés pour tous vos événements: anniversaires, mariages, événements corporatifs. Créations uniques et délicieuses."
     },
-    "clinic": {
-      "title": "Notre Clinique | Installations Modernes | Dr Georgette Elias",
-      "description": "Découvrez notre nouvelle clinique dentaire moderne avec équipements de pointe et environnement confortable."
+    "traiteur": {
+      "title": "Services Traiteur | Buffets & Événements | Patisserie St. Martin",
+      "description": "Services traiteur professionnels pour vos événements privés et corporatifs. Buffets et plateaux sur mesure."
     },
     "team": {
-      "title": "Notre Équipe | Dr Georgette Elias et Professionnels",
-      "description": "Rencontrez notre équipe de professionnels dentaires dévoués dirigée par Dr Georgette Elias."
+      "title": "Notre Équipe | Artisans Pâtissiers | Patisserie St. Martin",
+      "description": "Rencontrez notre équipe d'artisans pâtissiers passionnés dirigée par Chef St. Martin."
     },
     "contact": {
-      "title": "Contact | Prendre Rendez-vous | Dr Georgette Elias",
-      "description": "Contactez la clinique Dr Georgette Elias pour prendre rendez-vous. Téléphone, formulaire en ligne et informations de localisation."
+      "title": "Contact | Passer une Commande | Patisserie St. Martin",
+      "description": "Contactez Patisserie St. Martin pour passer votre commande. Téléphone, formulaire en ligne et informations de localisation."
     }
   }
 }

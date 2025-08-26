@@ -1,6 +1,6 @@
-# Clinique Dentaire Dr Georgette Elias - Website
+# Patisserie St. Martin - Website
 
-Modern bilingual dental clinic website built with Next.js 14, TypeScript, and Tailwind CSS.
+Modern bilingual patisserie website built with Next.js 14, TypeScript, and Tailwind CSS.
 
 ## 🚀 Features
 
@@ -49,7 +49,7 @@ npm run lint
 
 1. **Connect Repository**: Push your code to GitHub/GitLab/Bitbucket
 2. **Import Project**: In Vercel dashboard, click "New Project"
-3. **Select Repository**: Choose your dental clinic repository
+3. **Select Repository**: Choose your patisserie repository
 4. **Configure Build**:
    - Framework Preset: Next.js
    - Build Command: `npm run build`
@@ -88,10 +88,10 @@ src/
 ├── app/                    # Next.js App Router
 │   ├── en/               # English routes
 │   ├── contact/          # Contact page
-│   ├── services/         # Services page
-│   ├── equipe/           # Team page
-│   ├── financement/      # Financing page
-│   └── cdcp/            # CDCP page
+│   ├── patisseries/      # Pastries page
+│   ├── gateaux/          # Cakes page
+│   ├── traiteur/         # Catering page
+│   └── equipe/           # Team page
 ├── components/            # Reusable components
 │   ├── ui/              # UI components
 │   ├── Header.tsx       # Navigation header
@@ -111,11 +111,11 @@ src/
 ## 🎨 Customization
 
 ### Colors
-The design uses a custom dental color palette defined in `tailwind.config.js`:
-- `dental-primary`: Primary brand color
-- `dental-dark`: Dark accents
-- `dental-light`: Light backgrounds
-- `dental-accent`: Accent highlights
+The design uses a custom patisserie color palette defined in `tailwind.config.js`:
+- `patisserie-primary`: Primary brand color (#7A5033)
+- `patisserie-dark`: Dark accents
+- `patisserie-light`: Light backgrounds
+- `patisserie-accent`: Accent highlights
 
 ### Fonts
 - Modern, clean typography optimized for readability
@@ -189,13 +189,13 @@ The design uses a custom dental color palette defined in `tailwind.config.js`:
 ## 📞 Support
 
 For technical support or questions about the website:
-- **Email**: admin@dentistegeorgetteelias.com
+- **Email**: pstm2495@gmail.com
 - **Phone**: (514) 722-6575
 
 ## 📄 License
 
-© 2024 Dr Georgette Elias Dental Clinic. All rights reserved.
+© 2024 Patisserie St. Martin. All rights reserved.
 
 ---
 
-**Built with ❤️ for modern dental care**
+**Built with ❤️ for artisan pastries and cakes**

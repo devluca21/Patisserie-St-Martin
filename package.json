@@ -1,7 +1,7 @@
 {
-  "name": "clinique-dentaire-georgette-elias",
+  "name": "patisserie-st-martin",
   "version": "1.0.0",
-  "description": "Modern bilingual dental clinic website for Dr. Georgette Elias",
+  "description": "Modern patisserie website for Patisserie St. Martin",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -22,6 +22,7 @@
     "react-dom": "^18.0.0",
     "react-hook-form": "^7.47.0",
     "tailwind-merge": "^2.0.0",
+    "tailwindcss-animate": "^1.0.7",
     "zod": "^3.22.4"
   },
   "devDependencies": {

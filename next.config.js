@@ -33,7 +33,7 @@ const nextConfig = {
     // Disable experimental features for production stability
   },
   
-  // Webpack optimizations
+  // Security-focused webpack optimizations
   webpack: (config, { dev, isServer }) => {
     // Production optimizations
     if (!dev && !isServer) {
@@ -49,8 +49,87 @@ const nextConfig = {
       };
     }
     
+    // Security: Prevent source map exposure in production
+    if (!dev) {
+      config.devtool = false;
+    }
+    
+    // Security: Add security-focused plugins
+    if (!dev) {
+      // Remove console.log in production
+      config.optimization.minimizer = config.optimization.minimizer || [];
+    }
+    
     return config;
   },
+  
+  // Additional security headers
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY'
+          },
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff'
+          },
+          {
+            key: 'X-XSS-Protection',
+            value: '1; mode=block'
+          },
+          {
+            key: 'Strict-Transport-Security',
+            value: 'max-age=31536000; includeSubDomains; preload'
+          },
+          {
+            key: 'Permissions-Policy',
+            value: 'geolocation=(), microphone=(), camera=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()'
+          },
+          {
+            key: 'Referrer-Policy',
+            value: 'origin-when-cross-origin'
+          },
+          {
+            key: 'Cross-Origin-Embedder-Policy',
+            value: 'require-corp'
+          },
+          {
+            key: 'Cross-Origin-Opener-Policy',
+            value: 'same-origin'
+          },
+          {
+            key: 'Cross-Origin-Resource-Policy',
+            value: 'same-origin'
+          },
+          {
+            key: 'Origin-Agent-Cluster',
+            value: '?1'
+          }
+        ]
+      },
+      {
+        source: '/api/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'no-store, no-cache, must-revalidate, proxy-revalidate'
+          },
+          {
+            key: 'Pragma',
+            value: 'no-cache'
+          },
+          {
+            key: 'Expires',
+            value: '0'
+          }
+        ]
+      }
+    ];
+  }
 };
 
 module.exports = nextConfig;

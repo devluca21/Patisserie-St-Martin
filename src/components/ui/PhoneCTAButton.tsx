@@ -24,11 +24,11 @@ const PhoneCTAButton: React.FC<PhoneCTAButtonProps> = ({
     <a
       href={generatePhoneLink(phone)}
       className={cn(
-        'inline-flex items-center justify-center gap-2 rounded-md font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-dental-primary focus-visible:ring-offset-2 hover:scale-105 active:scale-95 touch-manipulation',
+        'inline-flex items-center justify-center gap-2 rounded-md font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-patisserie-primary focus-visible:ring-offset-2 hover:scale-105 active:scale-95 touch-manipulation',
         {
-          'bg-dental-primary text-white hover:bg-dental-dark active:bg-dental-dark': variant === 'primary',
-          'bg-dental-secondary text-white hover:bg-dental-primary hover:text-white active:bg-dental-primary': variant === 'secondary',
-          'border border-dental-primary text-dental-primary hover:bg-dental-primary hover:text-white active:bg-dental-primary': variant === 'outline',
+          'bg-patisserie-primary text-white hover:bg-patisserie-dark active:bg-patisserie-dark': variant === 'primary',
+          'bg-patisserie-secondary text-white hover:bg-patisserie-primary hover:text-white active:bg-patisserie-primary': variant === 'secondary',
+          'border border-patisserie-primary text-patisserie-primary hover:bg-patisserie-primary hover:text-white active:bg-patisserie-primary': variant === 'outline',
         },
         {
           'h-10 px-3 text-sm min-h-[40px]': size === 'sm',

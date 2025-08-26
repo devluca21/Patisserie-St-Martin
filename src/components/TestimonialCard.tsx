@@ -19,7 +19,11 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial }) => {
     <Card className="h-full">
       <CardContent className="p-4 sm:p-6">
         {/* Stars */}
-        <div className="flex gap-1 mb-3 sm:mb-4">
+        <div 
+          className="flex gap-1 mb-3 sm:mb-4"
+          role="img"
+          aria-label={`${rating} out of 5 stars`}
+        >
           {[...Array(5)].map((_, i) => (
             <Star
               key={i}
@@ -28,31 +32,35 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial }) => {
                   ? 'text-yellow-400 fill-current' 
                   : 'text-gray-300'
               }`}
+              aria-hidden="true"
             />
           ))}
         </div>
         
         {/* Testimonial Text */}
-        <blockquote className="text-gray-700 mb-3 sm:mb-4 italic text-xs sm:text-sm leading-relaxed">
+        <blockquote 
+          className="text-gray-700 mb-3 sm:mb-4 italic text-xs sm:text-sm leading-relaxed"
+          cite={`https://patisseriestmartin.com/reviews/${name.toLowerCase().replace(/\s+/g, '-')}`}
+        >
           "{text}"
         </blockquote>
         
         {/* Author */}
-        <div>
-          <div className="font-medium text-dental-dark mb-1 text-sm sm:text-base">
+        <footer>
+          <cite className="font-medium text-patisserie-dark mb-1 text-sm sm:text-base not-italic">
             {name}
-          </div>
+          </cite>
           {reviews && (
             <div className="text-xs text-gray-500 mb-1">
               {reviews}
             </div>
           )}
           {timeAgo && (
-            <div className="text-xs text-gray-500">
+            <time className="text-xs text-gray-500" dateTime={timeAgo}>
               {timeAgo}
-            </div>
+            </time>
           )}
-        </div>
+        </footer>
       </CardContent>
     </Card>
   );

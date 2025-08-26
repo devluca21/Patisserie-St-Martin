@@ -1,18 +1,23 @@
+'use client';
+
+import { useTranslations } from '@/lib/useTranslations';
+
 interface JsonLDProps {
   locale?: string; // Made optional since we don't use it anymore
 }
 
 const JsonLD = ({ locale }: JsonLDProps) => {
+  const { t } = useTranslations();
 
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "Dentist",
-    "name": "Dr Georgette Elias, D.M.D.",
-    "alternateName": "Clinique Dentaire Dr Georgette Elias",
-    "description": "Clinique dentaire moderne à Montréal offrant des soins complets. Partenaire RCSD. Financement disponible. Technologie de pointe, soins tout en douceur.",
-    "url": "https://www.dentistegeorgetteelias.com",
+    "@type": "Bakery",
+    "name": "Patisserie St. Martin",
+    "alternateName": "Patisserie St. Martin",
+    "description": t('jsonLD.description'),
+    "url": "https://patisseriestmartin.com",
     "telephone": "+1-514-722-6575",
-    "email": "admin@dentistegeorgetteelias.com",
+          "email": "pstm2495@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "2491 rue Bélanger",
@@ -30,126 +35,128 @@ const JsonLD = ({ locale }: JsonLDProps) => {
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-        "opens": "08:00",
-        "closes": "17:00"
+        "opens": "07:00",
+        "closes": "19:00"
       },
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": "Friday",
+        "opens": "07:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
         "opens": "08:00",
-        "closes": "16:00"
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "08:00",
+        "closes": "17:00"
       }
     ],
     "priceRange": "$$",
     "currenciesAccepted": "CAD",
-    "paymentAccepted": "Cash, Credit Card, Insurance, Financing, RCSD",
-    "medicalSpecialty": "Dentistry",
+    "paymentAccepted": "Cash, Credit Card, Debit Card",
+    "servesCuisine": "French Pastry, Artisan Bread, Custom Cakes",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Services dentaires",
+      "name": t('jsonLD.servicesCatalog'),
       "itemListElement": [
         {
           "@type": "Offer",
-          "name": "Dentisterie familiale",
-          "description": "Soins dentaires pour toute la famille"
+          "name": t('jsonLD.artisanPastries'),
+          "description": t('jsonLD.artisanPastriesDesc')
         },
         {
           "@type": "Offer",
-          "name": "Urgences dentaires",
-          "description": "Soins d'urgence disponibles"
+          "name": t('jsonLD.customCakes'),
+          "description": t('jsonLD.customCakesDesc')
         },
         {
           "@type": "Offer",
-          "name": "Implants dentaires",
-          "description": "Implants dentaires de qualité"
+          "name": t('jsonLD.artisanBreads'),
+          "description": t('jsonLD.artisanBreadsDesc')
         },
         {
           "@type": "Offer",
-          "name": "Examens et radiographies",
-          "description": "Examens complets et radiographies numériques"
+          "name": t('jsonLD.pastries'),
+          "description": t('jsonLD.pastriesDesc')
         },
         {
           "@type": "Offer",
-          "name": "Blanchiment dentaire",
-          "description": "Blanchiment professionnel des dents"
+          "name": t('jsonLD.cateringServices'),
+          "description": t('jsonLD.cateringServicesDesc')
         },
         {
           "@type": "Offer",
-          "name": "Prothèses dentaires",
-          "description": "Prothèses partielles et complètes"
+          "name": t('jsonLD.weddingCakes'),
+          "description": t('jsonLD.weddingCakesDesc')
         },
         {
           "@type": "Offer",
-          "name": "Traitement de canal",
-          "description": "Endodontie pour sauver les dents naturelles"
+          "name": t('jsonLD.birthdayCakes'),
+          "description": t('jsonLD.birthdayCakesDesc')
         },
         {
           "@type": "Offer",
-          "name": "Chirurgie dentaire",
-          "description": "Extractions et chirurgies dentaires"
+          "name": t('jsonLD.artisanChocolate'),
+          "description": t('jsonLD.artisanChocolateDesc')
         }
       ]
     },
     "founder": {
       "@type": "Person",
-      "name": "Dr Georgette Elias",
-      "jobTitle": "Dentist",
+      "name": "Patisserie St. Martin",
+      "jobTitle": "Artisan Patissier",
       "worksFor": {
         "@type": "Organization",
-        "name": "Clinique Dentaire Dr Georgette Elias"
+        "name": "Patisserie St. Martin"
       }
     },
     "image": [
-      "https://www.dentistegeorgetteelias.com/slide-01-1.jpg",
-      "https://www.dentistegeorgetteelias.com/logo-full.svg",
-      "https://www.dentistegeorgetteelias.com/clinic/1.png",
-      "https://www.dentistegeorgetteelias.com/clinic/2.png"
+      "https://patisseriestmartin.com/Pastries/pastry-hero-1.jpg",
+      "https://patisseriestmartin.com/Logos/logo-patisserie.svg",
+      "https://patisseriestmartin.com/Pastries/patisserie-1.jpg",
+      "https://patisseriestmartin.com/Cakes/cake-hero-1.jpg"
     ],
     "sameAs": [
-      "https://www.facebook.com/cliniquedentairedrgeorgetteelias/"
+      "https://www.instagram.com/patisseriestmartin/"
     ],
-    "hasCredential": "D.M.D.",
-    "memberOf": {
-      "@type": "Organization",
-      "name": "Ordre des dentistes du Québec"
-    },
     "areaServed": {
       "@type": "City",
       "name": "Montréal"
     },
     "availableService": [
       {
-        "@type": "MedicalProcedure",
-        "name": "Examen dentaire",
-        "description": "Examen complet de la santé bucco-dentaire"
+        "@type": "Service",
+        "name": "Pâtisseries artisanales",
+        "description": "Créations faites à la main avec des ingrédients premium"
       },
       {
-        "@type": "MedicalProcedure",
-        "name": "Nettoyage dentaire",
-        "description": "Nettoyage professionnel et détartrage"
+        "@type": "Service",
+        "name": "Gâteaux sur mesure",
+        "description": "Gâteaux personnalisés pour toutes occasions"
       },
       {
-        "@type": "MedicalProcedure",
-        "name": "Traitement de canal",
-        "description": "Endodontie pour sauver les dents naturelles"
+        "@type": "Service",
+        "name": "Services traiteur",
+        "description": "Événements et réceptions"
       },
       {
-        "@type": "MedicalProcedure",
-        "name": "Blanchiment dentaire",
-        "description": "Blanchiment professionnel des dents"
+        "@type": "Service",
+        "name": "Livraison",
+        "description": "Livraison à domicile et au bureau"
       },
       {
-        "@type": "MedicalProcedure",
-        "name": "Implant dentaire",
-        "description": "Implants dentaires de qualité"
+        "@type": "Service",
+        "name": "Cueillette",
+        "description": "Cueillette en magasin"
       }
     ],
     "amenityFeature": [
-      {
-        "@type": "LocationFeatureSpecification",
-        "name": "Accessible en fauteuil roulant",
-        "value": true
-      },
       {
         "@type": "LocationFeatureSpecification",
         "name": "Stationnement gratuit",
@@ -162,25 +169,30 @@ const JsonLD = ({ locale }: JsonLDProps) => {
       },
       {
         "@type": "LocationFeatureSpecification",
-        "name": "Technologie de pointe",
+        "name": "Ambiance chaleureuse",
         "value": true
       },
       {
         "@type": "LocationFeatureSpecification",
-        "name": "Partenaire RCSD",
+        "name": "Ingrédients premium",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Créations artisanales",
         "value": true
       }
     ],
     "potentialAction": [
       {
-        "@type": "ReserveAction",
+        "@type": "OrderAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.dentistegeorgetteelias.com/contact",
+          "urlTemplate": "https://patisseriestmartin.com/contact",
           "inLanguage": "fr-CA"
         },
-        "name": "Rendez-vous dentaire",
-        "description": "Prendre rendez-vous pour une consultation dentaire"
+        "name": "Commander en ligne",
+        "description": "Passer une commande de pâtisseries ou gâteaux"
       },
       {
         "@type": "CallAction",
@@ -188,8 +200,8 @@ const JsonLD = ({ locale }: JsonLDProps) => {
           "@type": "EntryPoint",
           "urlTemplate": "tel:+15147226575"
         },
-        "name": "Appeler la clinique",
-        "description": "Appeler pour des informations ou urgences"
+        "name": "Appeler la patisserie",
+        "description": "Appeler pour des informations ou commandes"
       }
     ],
     "review": [
@@ -202,9 +214,50 @@ const JsonLD = ({ locale }: JsonLDProps) => {
         },
         "author": {
           "@type": "Person",
-          "name": "Sandrine El-Khoury"
+          "name": "Marie-Claude Tremblay"
         },
-        "reviewBody": "Équipe formidable avec des dentistes professionnels qui prennent le temps de répondre à toutes vos questions avant de commencer un traitement. Je recommande vivement!"
+        "reviewBody": "Les gâteaux de mariage sont absolument magnifiques ! Chaque détail était parfait et le goût était exceptionnel. Tous nos invités ont adoré !",
+        "datePublished": "2024-01-15",
+        "itemReviewed": {
+          "@type": "Bakery",
+          "name": "Patisserie St. Martin"
+        }
+      },
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Jean-François Bouchard"
+        },
+        "reviewBody": "La meilleure patisserie du quartier ! Les croissants sont à tomber et le service est impeccable. Je recommande vivement !",
+        "datePublished": "2024-02-20",
+        "itemReviewed": {
+          "@type": "Bakery",
+          "name": "Patisserie St. Martin"
+        }
+      },
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Sophie Dubois"
+        },
+        "reviewBody": "Gâteau d'anniversaire personnalisé pour ma fille de 5 ans - elle était ravie ! La décoration était parfaite et le goût délicieux.",
+        "datePublished": "2024-03-10",
+        "itemReviewed": {
+          "@type": "Bakery",
+          "name": "Patisserie St. Martin"
+        }
       }
     ],
     "aggregateRating": {
@@ -213,7 +266,8 @@ const JsonLD = ({ locale }: JsonLDProps) => {
       "reviewCount": "50+",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+
   };
 
   return (

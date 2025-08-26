@@ -1,106 +1,100 @@
 {
   "announcement": {
-    "newLocation": "Your new neighborhood dental clinic!"
+    "newLocation": "YOUR NEW NEIGHBORHOOD PATISSERIE!"
   },
-  "tagline": "We're here to care for your smile.",
-  "cdcp": {
-    "title": "Welcoming patients with Canadian Dental Care Plan (CDCP) coverage!",
-    "cta": "Learn More"
+  "tagline": "We're here to create moments of happiness with our artisan pastries.",
+  "seasonal": {
+    "title": "Seasonal offers available!",
+    "cta": "Order Now"
   },
-  "financing": {
-    "title": "Financing options available"
+  "specialOrders": {
+    "title": "Special orders available"
   },
-  "accordd": {
-    "title": "Accord D Service – Pay in one year, interest-free"
+  "customCakes": {
+    "title": "Custom cakes - Unique creations for your events"
   },
-  "insurance": {
-    "online": "Electronic insurance submission"
-  },
-  "flexite": {
-    "title": "Flexite (flexible partial dentures)"
-  },
-  "flexiti": {
-    "title": "Financing options available with Flexiti",
-    "description": "Flexible financing for your dental care"
+  "catering": {
+    "title": "Catering services for your special events",
+    "description": "Custom buffets and platters for your celebrations"
   },
   "cta": {
     "call": "Call",
-    "appointment": "Book appointment",
+    "order": "Place order",
     "directions": "Directions",
     "learnMore": "Learn More"
   },
   "nav": {
     "home": "Home",
-    "services": "Services",
-    "financing": "Financing",
-    "clinic": "Clinic",
+    "patisseries": "Pastries",
+    "gateaux": "Cakes",
+    "traiteur": "Catering",
     "team": "Team",
     "contact": "Contact"
   },
   "services": {
-    "title": "Our Services",
-    "subtitle": "State-of-the-art dental care — now in your neighborhood",
-    "familyDentistry": {
-      "title": "Family Dentistry",
-      "description": "Comprehensive dental care for the whole family"
+    "title": "Our Specialties",
+    "subtitle": "Quality artisan pastries — now in your neighborhood",
+    "artisanPastries": {
+      "title": "Artisan Pastries",
+      "description": "Fresh croissants, pain au chocolat and viennoiseries"
     },
-    "emergencies": {
-      "title": "Dental Emergencies",
-      "description": "Emergency care available"
+    "customCakes": {
+      "title": "Custom Cakes",
+      "description": "Unique creations for birthdays, weddings and events"
     },
-    "implants": {
-      "title": "Dental Implants",
-      "description": "Permanent solutions to replace missing teeth"
+    "artisanBread": {
+      "title": "Artisan Bread",
+      "description": "Baguettes, country bread and daily specialties"
     },
-    "examinations": {
-      "title": "Examinations and X-rays",
-      "description": "Comprehensive exams and accurate diagnostics"
+    "desserts": {
+      "title": "Desserts and Pastries",
+      "description": "Éclairs, tarts and seasonal creations"
     },
-    "wisdomTeeth": {
-      "title": "Wisdom Tooth Extraction",
-      "description": "Safe and comfortable extractions"
+    "chocolate": {
+      "title": "Artisan Chocolates",
+      "description": "Truffles, candies and chocolate creations"
     },
-    "rootCanal": {
-      "title": "Root Canal Treatment",
-      "description": "Endodontics to save your natural teeth"
+    "catering": {
+      "title": "Catering Services",
+      "description": "Buffets and platters for private and corporate events"
     },
-    "crownsAndBridges": {
-      "title": "Crowns and Bridges",
-      "description": "Durable and aesthetic restorations"
+    "weddingCakes": {
+      "title": "Wedding Cakes",
+      "description": "Elegant and personalized creations"
     },
-    "endodontics": {
-      "title": "Endodontics",
-      "description": "Specialized treatment of dental nerves"
+    "birthdayCakes": {
+      "title": "Birthday Cakes",
+      "description": "Creative and personalized designs"
     },
-    "whitening": {
-      "title": "Teeth Whitening",
-      "description": "Restore your bright smile"
+    "corporateEvents": {
+      "title": "Corporate Events",
+      "description": "Professional catering services"
     },
-    "partialDentures": {
-      "title": "Partial Dentures",
-      "description": "Comfortable solutions to replace multiple teeth"
+    "seasonalSpecialties": {
+      "title": "Seasonal Specialties",
+      "description": "Pastries and cakes according to the seasons"
     },
-    "completeDentures": {
-      "title": "Complete Dentures",
-      "description": "Custom-made full dentures"
+    "glutenFree": {
+      "title": "Gluten-Free Options",
+      "description": "Delicious alternatives for everyone"
     },
-    "periodontics": {
-      "title": "Periodontics and Gum Disease",
-      "description": "Treatment of gum diseases"
+    "veganOptions": {
+      "title": "Vegan Options",
+      "description": "Pastries without animal products"
     }
   },
   "team": {
     "title": "Our Team",
-    "subtitle": "Professionals dedicated to your dental health",
-    "drGeorgette": {
-      "name": "Dr Georgette Elias, D.M.D.",
-      "title": "Dental Surgeon",
-      "description": "We're here to take care of your smile and oral health."
+    "subtitle": "Artisans passionate about pastry excellence",
+    "chef": {
+      "name": "Chef St. Martin",
+      "title": "Pastry Chef",
+      "description": "We're here to create moments of happiness with our artisan pastries."
     }
   },
   "contact": {
     "title": "Contact Us",
-    "subtitle": "Book your appointment today",
+    "subtitle": "Place your order today",
     "phone": "Phone",
     "address": "Address",
     "hours": "Hours",
@@ -109,20 +103,20 @@
       "email": "Email",
       "phone": "Phone",
       "message": "Message",
-      "reason": "Reason for visit",
-      "preferredTime": "Preferred time",
+      "orderType": "Order type",
+      "preferredDate": "Preferred date",
       "submit": "Submit",
-      "success": "Message sent successfully!",
-      "error": "Error sending message"
+      "success": "Order sent successfully!",
+      "error": "Error sending order"
     }
   },
-  "clinic": {
-    "title": "Our Clinic",
-    "subtitle": "A modern and welcoming clinic in the heart of Montreal, offering quality dental care in a comfortable environment.",
-    "newLocation": "Our new clinic",
-    "welcomeMessage": "Welcome to our new facilities! State-of-the-art technology, gentle care and healthy smiles for the whole family.",
-    "accessibility": "Clinic adapted for reduced mobility",
-    "stateOfArt": "State-of-the-art technology, gentle care",
+  "patisserie": {
+    "title": "Our Patisserie",
+    "subtitle": "A modern and welcoming patisserie in the heart of Montreal, offering quality artisan pastries in a warm environment.",
+    "newLocation": "Our new patisserie",
+    "welcomeMessage": "Welcome to our new facilities! Artisan pastries, quality ingredients and authentic flavors for the whole family.",
+    "atmosphere": "Patisserie with warm and welcoming atmosphere",
+    "artisanQuality": "Artisan pastries, quality ingredients",
     "location": {
       "title": "Address",
       "address": "2491 rue Bélanger, Montreal, QC H2G 1E6",
@@ -134,85 +128,331 @@
     "hours": {
       "title": "Opening Hours",
       "monday": "Monday",
-      "mondayTime": "8:00 AM - 5:00 PM",
+      "mondayTime": "7:00 AM - 7:00 PM",
       "tuesday": "Tuesday",
-      "tuesdayTime": "8:00 AM - 5:00 PM",
+      "tuesdayTime": "7:00 AM - 7:00 PM",
       "wednesday": "Wednesday",
-      "wednesdayTime": "8:00 AM - 5:00 PM",
+      "wednesdayTime": "7:00 AM - 7:00 PM",
       "thursday": "Thursday",
-      "thursdayTime": "8:00 AM - 5:00 PM",
+      "thursdayTime": "7:00 AM - 7:00 PM",
       "friday": "Friday",
-      "fridayTime": "8:00 AM - 5:00 PM",
+      "fridayTime": "7:00 AM - 7:00 PM",
       "saturday": "Saturday",
-      "saturdayTime": "By appointment",
+      "saturdayTime": "8:00 AM - 6:00 PM",
       "sunday": "Sunday",
-      "sundayTime": "Closed"
+      "sundayTime": "8:00 AM - 4:00 PM"
     },
     "contact": {
       "title": "Contact"
     },
     "features": {
-      "title": "Why choose our clinic?",
-      "modern": {
-        "title": "Modern equipment",
-        "description": "State-of-the-art technology for precise and comfortable care"
+      "title": "Why choose our patisserie?",
+      "artisan": {
+        "title": "Artisan quality",
+        "description": "Handmade pastries with quality ingredients"
       },
       "parking": {
         "title": "Free parking",
-        "description": "Easy access with free parking for our patients"
+        "description": "Easy access with free parking for our customers"
       },
-      "accessible": {
-        "title": "Accessible",
-        "description": "Fully accessible clinic for people with reduced mobility"
+      "atmosphere": {
+        "title": "Warm atmosphere",
+        "description": "Patisserie with a welcoming and friendly atmosphere"
       }
     }
   },
   "testimonials": {
-    "title": "Testimonials",
-    "subtitle": "What our patients say"
+    "title": "Customer Reviews",
+    "subtitle": "What our customers say"
   },
   "footer": {
     "address": "2491 rue Bélanger, Montreal, QC H2G 1E6",
     "phone": "(514) 722-6575",
-    "email": "admin@dentistegeorgetteelias.com",
+    "email": "pstm2495@gmail.com",
     "metro": "D'Iberville Metro Exit",
     "hours": {
       "title": "Opening Hours",
-      "monday": "Monday: 8am-5pm",
-      "tuesday": "Tuesday: 8am-5pm",
-      "wednesday": "Wednesday: 8am-5pm",
-      "thursday": "Thursday: 8am-5pm",
-      "friday": "Friday: 8am-4pm",
-      "saturday": "Saturday: Closed",
-      "sunday": "Sunday: Closed"
+      "monday": "Monday: 7am-7pm",
+      "tuesday": "Tuesday: 7am-7pm",
+      "wednesday": "Wednesday: 7am-7pm",
+      "thursday": "Thursday: 7am-7pm",
+      "friday": "Friday: 7am-7pm",
+      "saturday": "Saturday: 8am-6pm",
+      "sunday": "Sunday: 8am-4pm"
     },
     "quickLinks": "Quick Links",
     "followUs": "Follow Us"
   },
+  "gallery": {
+    "bread": {
+      "tabs": {
+        "viennoiseries": "PASTRIES",
+        "boulangerie": "BAKERY",
+        "specialites": "SPECIALTIES"
+      },
+      "descriptions": {
+        "viennoiseries": "Our delicious flaky pastries, prepared with premium butter",
+        "boulangerie": "Our artisan breads, baked in wood-fired ovens following French traditions",
+        "specialites": "Our special creations, unique and flavorful"
+      },
+      "items": {
+        "croissants": {
+          "title": "Classic Croissants",
+          "description": "Traditional butter croissants, flaky and golden"
+        },
+        "painChocolat": {
+          "title": "Pain au Chocolat",
+          "description": "Flaky pastry with dark chocolate sticks"
+        },
+        "chaussonsPommes": {
+          "title": "Apple Turnovers",
+          "description": "Flaky turnovers filled with apple compote"
+        },
+        "painsLait": {
+          "title": "Milk Bread",
+          "description": "Soft and slightly sweet milk bread"
+        },
+        "painRaisins": {
+          "title": "Raisin Bread",
+          "description": "Brioche bread with raisins and pastry cream"
+        },
+        "chouquettes": {
+          "title": "Chouquettes",
+          "description": "Small choux pastries topped with pearl sugar"
+        },
+        "painCampagne": {
+          "title": "Country Bread",
+          "description": "Rustic sourdough bread with golden crust"
+        },
+        "baguette": {
+          "title": "Traditional Baguette",
+          "description": "Classic French baguette with crispy crust"
+        },
+        "painComplet": {
+          "title": "Whole Grain Bread",
+          "description": "Whole grain bread with cereals and seeds"
+        },
+        "painSeigle": {
+          "title": "Rye Bread",
+          "description": "Traditional rye bread with caraway"
+        },
+        "painNoix": {
+          "title": "Walnut Bread",
+          "description": "Rustic bread with whole walnuts"
+        },
+        "painOlives": {
+          "title": "Olive Bread",
+          "description": "Mediterranean bread with black and green olives"
+        },
+        "fougasse": {
+          "title": "Provençal Fougasse",
+          "description": "Provençal flatbread with herbs de Provence"
+        },
+        "painFigues": {
+          "title": "Fig Bread",
+          "description": "Rustic bread with fresh figs"
+        },
+        "painCereales": {
+          "title": "Multigrain Bread",
+          "description": "Multigrain bread with sunflower and flax seeds"
+        },
+        "painLevain": {
+          "title": "Sourdough Bread",
+          "description": "Natural sourdough bread, slow fermentation"
+        },
+        "painMie": {
+          "title": "Sandwich Bread",
+          "description": "Soft sandwich bread"
+        },
+        "painFruitsSecs": {
+          "title": "Dried Fruit Bread",
+          "description": "Bread with apricots, raisins and hazelnuts"
+        }
+      }
+    },
+    "pastry": {
+      "items": {
+        "croissants": {
+          "title": "Classic Croissants",
+          "description": "Traditional butter croissants, flaky and golden"
+        },
+        "painChocolat": {
+          "title": "Pain au Chocolat",
+          "description": "Flaky pastry with dark chocolate sticks"
+        },
+        "chaussonsPommes": {
+          "title": "Apple Turnovers",
+          "description": "Flaky turnovers filled with apple compote"
+        },
+        "painCampagne": {
+          "title": "Country Bread",
+          "description": "Rustic sourdough bread with golden crust"
+        },
+        "baguette": {
+          "title": "Traditional Baguette",
+          "description": "Classic French baguette with crispy crust"
+        },
+        "painComplet": {
+          "title": "Whole Grain Bread",
+          "description": "Whole grain bread with cereals and seeds"
+        },
+        "eclairs": {
+          "title": "Chocolate Éclairs",
+          "description": "Choux éclairs filled with chocolate pastry cream"
+        },
+        "tartesFruits": {
+          "title": "Fruit Tarts",
+          "description": "Tarts with pastry cream and fresh fruits"
+        },
+        "macarons": {
+          "title": "Macarons",
+          "description": "Macarons with various flavors, shells and fillings"
+        },
+        "milleFeuilles": {
+          "title": "Mille-Feuilles",
+          "description": "Flaky mille-feuilles with pastry cream"
+        },
+        "chouxCreme": {
+          "title": "Cream Puffs",
+          "description": "Choux pastries filled with vanilla whipped cream"
+        },
+        "painsLait": {
+          "title": "Milk Bread",
+          "description": "Soft and slightly sweet milk bread"
+        }
+      }
+    },
+    "cake": {
+      "tabs": {
+        "wedding": "OUR WEDDING CAKES",
+        "classic": "CLASSIC CAKES",
+        "custom": "CUSTOM CAKES"
+      },
+      "descriptions": {
+        "wedding": "Elegant and unique wedding cakes for your special day",
+        "classic": "Our classic pastries, prepared with traditional recipes",
+        "custom": "Personalized creations for your special occasions"
+      },
+      "items": {
+        "nakedHydrangeas": {
+          "title": "Naked Cake with Hydrangeas",
+          "description": "Semi-naked cake with hydrangeas and peach roses"
+        },
+        "noirTextes": {
+          "title": "Black Cake with Text",
+          "description": "4-tier black cake with hand-painted text"
+        },
+        "classiqueBlanc": {
+          "title": "Classic White Cake",
+          "description": "5-tier white cake with sugar flower cascade"
+        },
+        "roseGold": {
+          "title": "Rose Gold Cake",
+          "description": "White cake with rose gold metallic dots and 'Mr & Mrs' topper"
+        },
+        "rustique": {
+          "title": "Rustic Cake",
+          "description": "Rustic cake with natural decorations"
+        },
+        "moderne": {
+          "title": "Modern Cake",
+          "description": "Modern design with geometry and contemporary colors"
+        },
+        "mousseChocolat": {
+          "title": "Chocolate Mousse",
+          "description": "Chocolate genoise with semi-sweet mousse and mirror glaze"
+        },
+        "pistache": {
+          "title": "Pistachio",
+          "description": "Vanilla genoise with pistachio cream"
+        },
+        "shortcakeFraises": {
+          "title": "Strawberry Shortcake",
+          "description": "Plain genoise with vanilla cream and fresh strawberries"
+        },
+        "fruitsBois": {
+          "title": "Mixed Berries",
+          "description": "Vanilla genoise with fresh fruits and ladyfinger cookies"
+        },
+        "mousseFramboises": {
+          "title": "Raspberry Mousse",
+          "description": "Raspberry mousse with vanilla genoise and coulis"
+        },
+        "chocolatBeurre": {
+          "title": "Chocolate Butter",
+          "description": "Chocolate genoise with chocolate butter cream"
+        },
+        "limoncello": {
+          "title": "Limoncello",
+          "description": "Lemon genoise with limoncello mousseline and lemon slices"
+        },
+        "cremeLegere": {
+          "title": "Light Cream",
+          "description": "Vanilla genoise with light cream and fresh fruits"
+        },
+        "moitieMoitie": {
+          "title": "Half and Half",
+          "description": "Vanilla and chocolate genoise with various creams"
+        },
+        "fraisier": {
+          "title": "Fraisier",
+          "description": "Vanilla genoise with mousseline and strawberries"
+        },
+        "domeFruitsBois": {
+          "title": "Mixed Berries Dome",
+          "description": "Almond cream tart with fresh fruits"
+        },
+        "bapteme": {
+          "title": "Baptism Cake",
+          "description": "Pink and white ombre cake with golden cross and roses"
+        },
+        "communion": {
+          "title": "Communion Cake",
+          "description": "Two-tone cake with golden cross and blue macarons"
+        },
+        "diplome": {
+          "title": "Graduation Cake",
+          "description": "White cake with cap, diploma and orange roses"
+        },
+        "anniversaire": {
+          "title": "Birthday Cake",
+          "description": "Number cakes with pink roses and macarons"
+        },
+        "theme": {
+          "title": "Theme Cake",
+          "description": "Custom cake according to your preferences"
+        },
+        "evenement": {
+          "title": "Event Cake",
+          "description": "Unique creation for your special events"
+        }
+      }
+    }
+  },
   "meta": {
     "home": {
-      "title": "Dr Georgette Elias Dental Clinic | Montreal Dental Care",
-      "description": "Modern dental clinic in Montreal offering comprehensive care. CDCP partner. Financing available. Book your appointment with Dr Georgette Elias."
+      "title": "Patisserie St. Martin | Artisan Pastries & Cakes - Montreal",
+      "description": "Modern patisserie in Montreal offering artisan pastries and custom cakes. Catering services available. Order your pastries at Patisserie St. Martin."
     },
-    "services": {
-      "title": "Dental Services | Dr Georgette Elias",
-      "description": "Comprehensive dental services: examinations, cleaning, restorations, emergencies, esthetics and prosthetics. Professional care in Montreal."
+    "patisseries": {
+      "title": "Artisan Pastries | Patisserie St. Martin",
+      "description": "Complete artisan pastries: croissants, breads, viennoiseries, desserts and specialties. Artisan quality in Montreal."
     },
-    "financing": {
-      "title": "Financing | Payment Options | Dr Georgette Elias",
-      "description": "Flexible financing options including Accord D and electronic insurance submission. CDCP partner."
+    "gateaux": {
+      "title": "Custom Cakes | Unique Creations | Patisserie St. Martin",
+      "description": "Personalized cakes for all your events: birthdays, weddings, corporate events. Unique and delicious creations."
     },
-    "clinic": {
-      "title": "Our Clinic | Modern Facilities | Dr Georgette Elias",
-      "description": "Discover our new modern dental clinic with state-of-the-art equipment and comfortable environment."
+    "traiteur": {
+      "title": "Catering Services | Buffets & Events | Patisserie St. Martin",
+      "description": "Professional catering services for your private and corporate events. Custom buffets and platters."
     },
     "team": {
-      "title": "Our Team | Dr Georgette Elias and Professionals",
-      "description": "Meet our team of dedicated dental professionals led by Dr Georgette Elias."
+      "title": "Our Team | Pastry Artisans | Patisserie St. Martin",
+      "description": "Meet our team of passionate pastry artisans led by Chef St. Martin."
     },
     "contact": {
-      "title": "Contact | Book Appointment | Dr Georgette Elias",
-      "description": "Contact Dr Georgette Elias clinic to book your appointment. Phone, online form and location information."
+      "title": "Contact | Place an Order | Patisserie St. Martin",
+      "description": "Contact Patisserie St. Martin to place your order. Phone, online form and location information."
     }
   }
 }

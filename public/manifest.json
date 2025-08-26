@@ -1,0 +1,17 @@
+{
+  "name": "Patisserie St. Martin",
+  "short_name": "Patisserie St. Martin",
+  "description": "Artisan Pastries & Cakes - Montréal",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#7A5033",
+  "icons": [
+    {
+      "src": "/Logos/Patiserie-St-Martin-Featured-Image.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

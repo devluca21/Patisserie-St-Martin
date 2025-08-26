@@ -31,7 +31,25 @@ const Carousel: React.FC<CarouselProps> = ({
   slidesToScroll = 1,
   responsive = [],
 }) => {
-  const [currentSlidesToShow, setCurrentSlidesToShow] = React.useState(slidesToShow);
+  const [currentSlidesToShow, setCurrentSlidesToShow] = React.useState(() => {
+    // Initialize with the correct value based on current window size
+    if (typeof window !== 'undefined') {
+      const windowWidth = window.innerWidth;
+      let initialSlidesToShow = slidesToShow;
+
+      const sortedResponsive = [...responsive].sort((a, b) => b.breakpoint - a.breakpoint);
+      
+      for (const breakpoint of sortedResponsive) {
+        if (windowWidth <= breakpoint.breakpoint) {
+          initialSlidesToShow = breakpoint.settings.slidesToShow;
+          break;
+        }
+      }
+
+      return initialSlidesToShow;
+    }
+    return slidesToShow;
+  });
 
   // Handle responsive breakpoints
   useEffect(() => {
@@ -62,6 +80,7 @@ const Carousel: React.FC<CarouselProps> = ({
     skipSnaps: false,
     dragFree: false,
     containScroll: 'trimSnaps',
+    slidesToScroll: slidesToScroll,
   });
 
   const scrollPrev = useCallback(() => {
@@ -107,12 +126,19 @@ const Carousel: React.FC<CarouselProps> = ({
   return (
     <div className={cn('relative', className)}>
       <div className="overflow-hidden" ref={emblaRef}>
-        <div className="flex">
+        <div className="flex w-full">
           {children.map((child, index) => (
             <div 
               key={index} 
-              className="min-w-0"
-              style={{ flex: `0 0 ${100 / currentSlidesToShow}%` }}
+              className={`min-w-0 flex-shrink-0 testimonial-slide ${
+                currentSlidesToShow === 1 ? 'w-full' : ''
+              }`}
+              style={{ 
+                flex: `0 0 ${100 / currentSlidesToShow}%`,
+                maxWidth: `${100 / currentSlidesToShow}%`,
+                width: `${100 / currentSlidesToShow}%`,
+                minWidth: `${100 / currentSlidesToShow}%`
+              }}
             >
               {child}
             </div>

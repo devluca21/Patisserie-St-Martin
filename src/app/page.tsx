@@ -1,33 +1,34 @@
 import { Metadata } from 'next';
 import Hero from '@/components/Hero';
 import ServicesGrid from '@/components/ServicesGrid';
-import FinancingTeaser from '@/components/FinancingTeaser';
+
 import Testimonials from '@/components/Testimonials';
-import OfficeSection from '@/components/OfficeSection';
+
+import InstagramEmbed from '@/components/InstagramEmbed';
 import JsonLD from '@/components/JsonLD';
 
 export const metadata: Metadata = {
-  title: 'Clinique Dentaire Dr Georgette Elias | Montréal - Soins Dentaires Complets',
-  description: 'Clinique dentaire moderne à Montréal. Soins dentaires complets, technologie de pointe, partenaire RCSD. Prise de rendez-vous en ligne. Urgences dentaires.',
+  title: 'Patisserie St. Martin | Artisan Pastries & Cakes - Montréal',
+  description: 'Découvrez nos délicieuses pâtisseries artisanales, gâteaux sur mesure et services traiteur. Patisserie St. Martin - Excellence et tradition depuis des générations.',
   keywords: [
-    'dentiste montreal',
-    'clinique dentaire montreal',
-    'dr georgette elias',
-    'soins dentaires montreal',
-    'implant dentaire montreal',
-    'traitement canal montreal',
-    'blanchiment dents montreal',
-    'urgence dentaire montreal',
-    'RCSD montreal',
-    'financement dentaire montreal',
-    'métro d\'iberville',
-    'rue bélanger'
+    'patisserie montreal',
+    'gateaux montreal',
+    'patisserie artisanale',
+    'traiteur montreal',
+    'desserts montreal',
+    'patisserie st martin',
+    'gateaux sur mesure',
+    'pains artisanaux',
+    'viennoiseries',
+    'chocolat montreal',
+    'patisserie artisanale montreal',
+    'gateaux personnalises'
   ],
   openGraph: {
-    title: 'Clinique Dentaire Dr Georgette Elias | Montréal - Soins Dentaires Complets',
-    description: 'Clinique dentaire moderne à Montréal. Soins dentaires complets, technologie de pointe, partenaire RCSD. Prise de rendez-vous en ligne. Urgences dentaires.',
-    url: 'https://www.dentistegeorgetteelias.com',
-    siteName: 'Clinique Dentaire Dr Georgette Elias',
+    title: 'Patisserie St. Martin | Artisan Pastries & Cakes - Montréal',
+    description: 'Découvrez nos délicieuses pâtisseries artisanales, gâteaux sur mesure et services traiteur. Patisserie St. Martin - Excellence et tradition depuis des générations.',
+    url: 'https://patisseriestmartin.com',
+    siteName: 'Patisserie St. Martin',
     locale: 'fr_CA',
     type: 'website',
     images: [
@@ -35,21 +36,21 @@ export const metadata: Metadata = {
         url: '/og/default.jpg',
         width: 1200,
         height: 630,
-        alt: 'Clinique Dentaire Dr Georgette Elias - Montréal - Soins Dentaires Complets',
+        alt: 'Patisserie St. Martin - Artisan Pastries & Cakes - Montréal',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Clinique Dentaire Dr Georgette Elias | Montréal - Soins Dentaires Complets',
-    description: 'Clinique dentaire moderne à Montréal. Soins dentaires complets, technologie de pointe, partenaire RCSD.',
+    title: 'Patisserie St. Martin | Artisan Pastries & Cakes - Montréal',
+    description: 'Découvrez nos délicieuses pâtisseries artisanales, gâteaux sur mesure et services traiteur.',
     images: ['/og/default.jpg'],
   },
   alternates: {
-    canonical: 'https://www.dentistegeorgetteelias.com',
+    canonical: 'https://patisseriestmartin.com',
     languages: {
-      'fr-CA': 'https://www.dentistegeorgetteelias.com',
-      'en-CA': 'https://www.dentistegeorgetteelias.com/en',
+      'fr-CA': 'https://patisseriestmartin.com',
+      'en-CA': 'https://patisseriestmartin.com/en',
     },
   },
 };
@@ -62,8 +63,7 @@ export default function HomePage() {
       <section id="services">
         <ServicesGrid />
       </section>
-      <FinancingTeaser />
-      <OfficeSection />
+      <InstagramEmbed />
       <Testimonials />
     </>
   );

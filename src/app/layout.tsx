@@ -1,89 +1,96 @@
-import type { Metadata, Viewport } from 'next';
+import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import AnnouncementBar from '@/components/AnnouncementBar';
-import CDCPBanner from '@/components/CDCPBanner';
+import SeasonalBanner from '@/components/SeasonalBanner';
 import ScrollToTop from '@/components/ScrollToTop';
+import Image from 'next/image';
 
-const inter = Inter({ subsets: ['latin'] });
-
-export const viewport: Viewport = {
-  width: 'device-width',
-  initialScale: 1,
-  maximumScale: 5,
-  userScalable: true,
-  themeColor: '#733f2b',
-};
+const inter = Inter({ 
+  subsets: ['latin'],
+  display: 'swap',
+  preload: true,
+  fallback: ['system-ui', 'arial']
+});
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.dentistegeorgetteelias.com'),
   title: {
-    default: 'Clinique Dentaire Dr Georgette Elias | Montréal',
-    template: '%s | Clinique Dentaire Dr Georgette Elias'
+    default: 'Patisserie St. Martin | Artisan Pastries & Cakes - Montréal',
+    template: '%s | Patisserie St. Martin'
   },
-  description: 'Clinique dentaire moderne à Montréal. Soins dentaires complets, technologie de pointe, partenaire RCSD. Prise de rendez-vous en ligne.',
-  keywords: [
-    'dentiste montreal',
-    'clinique dentaire montreal',
-    'dr georgette elias',
-    'soins dentaires',
-    'implant dentaire montreal',
-    'traitement canal montreal',
-    'blanchiment dents montreal',
-    'urgence dentaire montreal',
-    'RCSD',
-    'financement dentaire'
-  ],
-  authors: [{ name: 'Dr Georgette Elias' }],
-  creator: 'Dr Georgette Elias',
-  publisher: 'Clinique Dentaire Dr Georgette Elias',
-  formatDetection: {
-    telephone: false,
-    email: false,
-    address: false,
-  },
+  description: 'Découvrez nos délicieuses pâtisseries artisanales, gâteaux sur mesure et services traiteur. Patisserie St. Martin - Excellence et tradition depuis des générations.',
   icons: {
     icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico', sizes: 'any' }
+      { url: '/Logos/Patiserie-St-Martin-Featured-Image.png', type: 'image/png' },
+      { url: '/Logos/Patiserie-St-Martin-Featured-Image.png', sizes: 'any', type: 'image/png' }
     ],
-    apple: '/favicon.svg',
+    shortcut: '/Logos/Patiserie-St-Martin-Featured-Image.png',
+    apple: '/Logos/Patiserie-St-Martin-Featured-Image.png',
   },
-  appleWebApp: {
-    capable: true,
-    statusBarStyle: 'default',
-    title: 'Clinique Dentaire Dr Georgette Elias',
+  keywords: [
+    'patisserie montreal',
+    'gateaux montreal',
+    'patisserie artisanale',
+    'traiteur montreal',
+    'desserts montreal',
+    'patisserie st martin',
+    'gateaux sur mesure',
+    'pains artisanaux',
+    'viennoiseries',
+    'chocolat montreal',
+    'patisserie artisanale montreal',
+    'gateaux personnalises',
+    'boulangerie montreal',
+    'gateaux de mariage',
+    'gateaux d\'anniversaire',
+    'patisseries fraiches',
+    'croissants montreal',
+    'pain au chocolat',
+    'chocolat artisanal',
+    'desserts francais',
+    'patisserie traditionnelle',
+    'avis clients patisserie',
+    'reviews patisserie montreal',
+    'meilleure patisserie montreal'
+  ],
+  authors: [{ name: 'Patisserie St. Martin' }],
+  creator: 'Patisserie St. Martin',
+  publisher: 'Patisserie St. Martin',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://patisseriestmartin.com'),
+  alternates: {
+    canonical: 'https://patisseriestmartin.com',
+    languages: {
+      'fr-CA': 'https://patisseriestmartin.com',
+      'en-CA': 'https://patisseriestmartin.com/en',
+    },
   },
   openGraph: {
     type: 'website',
     locale: 'fr_CA',
-    url: 'https://www.dentistegeorgetteelias.com',
-    siteName: 'Clinique Dentaire Dr Georgette Elias',
-    title: 'Clinique Dentaire Dr Georgette Elias | Montréal',
-    description: 'Clinique dentaire moderne à Montréal. Soins dentaires complets, technologie de pointe, partenaire RCSD. Prise de rendez-vous en ligne.',
+    url: 'https://patisseriestmartin.com',
+    siteName: 'Patisserie St. Martin',
+    title: 'Patisserie St. Martin | Artisan Pastries & Cakes - Montréal',
+    description: 'Découvrez nos délicieuses pâtisseries artisanales, gâteaux sur mesure et services traiteur. Patisserie St. Martin - Excellence et tradition depuis des générations.',
     images: [
       {
         url: '/og/default.jpg',
         width: 1200,
         height: 630,
-        alt: 'Clinique Dentaire Dr Georgette Elias - Montréal',
-      },
-      {
-        url: '/logo-full.svg',
-        width: 200,
-        height: 66,
-        alt: 'Logo Clinique Dentaire Dr Georgette Elias',
+        alt: 'Patisserie St. Martin - Artisan Pastries & Cakes - Montréal',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Clinique Dentaire Dr Georgette Elias | Montréal',
-    description: 'Clinique dentaire moderne à Montréal. Soins dentaires complets, technologie de pointe, partenaire RCSD.',
+    title: 'Patisserie St. Martin | Artisan Pastries & Cakes - Montréal',
+    description: 'Découvrez nos délicieuses pâtisseries artisanales, gâteaux sur mesure et services traiteur.',
     images: ['/og/default.jpg'],
-    creator: '@cliniquedentairedrgeorgetteelias',
   },
   robots: {
     index: true,
@@ -96,36 +103,41 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: 'your-google-verification-code', // Add your Google Search Console verification code
-  },
-  alternates: {
-    canonical: 'https://www.dentistegeorgetteelias.com',
-    languages: {
-      'fr-CA': 'https://www.dentistegeorgetteelias.com',
-      'en-CA': 'https://www.dentistegeorgetteelias.com/en',
-    },
-  },
+
 };
 
 export default function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: { lang?: string };
 }) {
   return (
-    <html lang="fr">
+    <html lang={params?.lang || 'fr'} className={inter.className}>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+      </head>
       <body className={inter.className}>
-        <div className="min-h-screen flex flex-col">
-          <AnnouncementBar />
-          <CDCPBanner />
-          <Header />
-          <main className="flex-1">
+        <div className="sidebar-layout">
+          {/* Left Sidebar - Hidden on mobile, shown on desktop */}
+          <aside className="sidebar left-sidebar hidden lg:block">
+          </aside>
+
+          {/* Main Content */}
+          <main className="main-content">
+            <SeasonalBanner />
+            <Header />
             {children}
+            <Footer />
           </main>
-          <Footer />
-          <ScrollToTop />
+
+          {/* Right Sidebar - Hidden on mobile, shown on desktop */}
+          <aside className="sidebar right-sidebar hidden lg:block">
+          </aside>
         </div>
+
+        <ScrollToTop />
       </body>
     </html>
   );
