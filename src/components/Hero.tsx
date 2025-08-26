@@ -100,7 +100,7 @@ const Hero = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             loading="eager"
-            style={{ imageRendering: 'high-quality' }}
+            style={{ imageRendering: 'high-quality' as any }}
           />
           {/* Video overlay for better text readability */}
           <div className="absolute inset-0 bg-black bg-opacity-30"></div>

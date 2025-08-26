@@ -25,9 +25,6 @@ const nextConfig = {
   // Vercel specific optimizations
   swcMinify: true,
   
-  // Output configuration for static export if needed
-  output: 'standalone',
-  
   // Experimental features (disabled for stability)
   experimental: {
     // Disable experimental features for production stability
